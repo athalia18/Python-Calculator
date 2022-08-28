@@ -1,0 +1,25 @@
+def add(x,y):
+    return x + y
+def sub(x,y):
+    return x - y
+def mult(x,y):
+    return x * y
+def div(x,y):
+    return x/y
+
+
+number_1 = int(input("Enter number here: "))
+number_2 = int(input("Enter number here: "))
+print ("Choose x, +, -, /")
+operation = input("Enter operation here: ")
+
+if operation == "+":
+    print (add(number_1, number_2))
+elif operation == "-":
+    print (sub(number_1, number_2))
+elif operation == "x":
+    print (mult(number_1, number_2))
+elif operation == "/":
+    print (div(number_1, number_2))
+else: 
+    print ("Error, please run program again")
